@@ -8,7 +8,7 @@ export default function SelectedAsset() {
 
   if (!!openAsset)
     return (
-      <Card className="text-white bg-purple-medium w-[70%] my-5  shadow-2xl text-left">
+      <Card className="text-white bg-purple-medium w-full md:w-[70%] my-5  shadow-2xl text-left">
         <Asset asset={openAsset} />
       </Card>
     );

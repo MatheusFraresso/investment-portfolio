@@ -16,7 +16,7 @@ export default async function Home() {
     );
 
   return (
-    <main className="flex space-x-5 bg-neutral-950 w-full">
+    <main className="md:flex md:space-x-5 bg-neutral-950 w-full">
       <NavbarProvider>
         <WalletsProvider wallets={portfolio.wallets}>
           <Navbar portfolio={portfolio} />
