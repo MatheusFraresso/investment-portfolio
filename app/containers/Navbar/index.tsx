@@ -1,7 +1,7 @@
 "use client";
 
-import { NavbarContext } from "@/contexts/Navbar.context";
-import useScreen from "@/hooks/UseScreen";
+import { NavbarContext } from "@/app/contexts/Navbar.context";
+import useScreen from "@/app/hooks/UseScreen";
 import { IPortfolio } from "@/structures/DTOs/Portfolio.dto";
 import { useContext, useMemo, useState } from "react";
 import { FaWallet } from "react-icons/fa6";

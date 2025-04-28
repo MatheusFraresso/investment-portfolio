@@ -1,6 +1,6 @@
-import Asset from "@/components/Asset";
-import Card from "@/components/Card";
-import { WalletsContext } from "@/contexts/Wallets.context";
+import Asset from "@/app/components/Asset";
+import Card from "@/app/components/Card";
+import { WalletsContext } from "@/app/contexts/Wallets.context";
 import { useContext } from "react";
 
 export default function SelectedAsset() {

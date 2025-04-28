@@ -1,7 +1,7 @@
 "use client";
 
-import Wallet from "@/components/Wallet";
-import { WalletsContext } from "@/contexts/Wallets.context";
+import Wallet from "@/app/components/Wallet";
+import { WalletsContext } from "@/app/contexts/Wallets.context";
 import { useContext, useEffect, useMemo } from "react";
 
 export default function SelectedWallet() {
