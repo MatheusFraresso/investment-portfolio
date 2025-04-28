@@ -10,7 +10,7 @@ export default function SelectedWallet() {
   return (
     <section id="balance" className="space-y-2 pl-2 h-full w-full">
       {!openWallet && (
-        <h2 className="text-text-dark">
+        <h2 className="text-text-light">
           Select a wallet on the menu to check your balance!
         </h2>
       )}
