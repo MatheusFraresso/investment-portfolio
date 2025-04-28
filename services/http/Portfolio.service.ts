@@ -1,7 +1,7 @@
 import { IPortfolio, rawToPortfolio } from "@/structures/DTOs/Portfolio.dto";
 import { recordError } from "@/services/Error.service";
 
-import portfolioData from "@/public/mock/portfolio.json";
+import portfolioData from "@/mock/portfolio.json";
 
 async function getPortfolio(): Promise<IPortfolio> {
   try {
