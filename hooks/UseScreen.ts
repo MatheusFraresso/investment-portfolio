@@ -17,8 +17,6 @@ function getScreenProperties() {
   };
 }
 export default function useScreen() {
-  if (typeof window === "undefined") return;
-
   const [screenProperties, setScreenProperties] = useState<IScreenProperties>(
     getScreenProperties()
   );
