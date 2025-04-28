@@ -2,7 +2,7 @@ import { getPortfolio } from "@/services/http/Portfolio.service";
 import Navbar from "./containers/Navbar";
 import { NavbarProvider } from "../contexts/Navbar.context";
 import Card from "@/components/Card";
-import { WalletsContext, WalletsProvider } from "@/contexts/Wallets.context";
+import { WalletsProvider } from "@/contexts/Wallets.context";
 import SelectedWallet from "./containers/SelectedWallet";
 
 export default async function Home() {

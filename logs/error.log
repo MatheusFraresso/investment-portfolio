@@ -194,3 +194,31 @@ Stack: TypeError: Cannot read properties of undefined (reading 'map')
     at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
     at async Home (/home/matheus/code/investment-wallet/.next/server/chunks/ssr/[root-of-the-server]__87f2ef2e._.js:216:23)
 
+
+[2025-04-27T14:38:16.766Z] Error: raw.map is not a function
+Stack: TypeError: raw.map is not a function
+    at rawToPortfolio (/home/matheus/code/investment-wallet/.next/server/chunks/ssr/[root-of-the-server]__9c6321fb._.js:72:22)
+    at getPortfolio (/home/matheus/code/investment-wallet/.next/server/chunks/ssr/[root-of-the-server]__9c6321fb._.js:157:173)
+    at Home (/home/matheus/code/investment-wallet/.next/server/chunks/ssr/[root-of-the-server]__9c6321fb._.js:377:186)
+    at react-stack-bottom-frame (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:89831)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at renderFunctionComponent (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:18973)
+    at renderElement (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:32223)
+    at renderModelDestructive (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:33643)
+    at retryTask (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:57505)
+    at outlineTask (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:23556)
+    at renderFunctionComponent (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:18012)
+    at renderElement (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:32223)
+    at renderModelDestructive (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:33643)
+    at /home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:25518
+    at Array.toJSON (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:26644)
+    at stringify (<anonymous>)
+    at emitChunk (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:57074)
+    at retryTask (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:57923)
+    at performWork (/home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:59100)
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_hooks:91:14)
+    at /home/matheus/code/investment-wallet/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:23:60828
+    at node:internal/process/task_queues:151:7
+    at AsyncResource.runInAsyncScope (node:async_hooks:211:14)
+    at AsyncResource.runMicrotask (node:internal/process/task_queues:148:8)
+

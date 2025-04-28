@@ -14,6 +14,8 @@ interface INavbarProvider {
 export const NavbarContext = createContext({} as INavbarContext);
 
 export function NavbarProvider({ children }: INavbarProvider) {
+  if (typeof window === "undefined") return;
+
   const [selectedWallet, setSelectedWallet] = useState<string>();
 
   function setSelectedWalletName(wallet: string | undefined) {

@@ -28,6 +28,8 @@ interface IWalletProvider {
 export const WalletsContext = createContext({} as IWalletContext);
 
 export function WalletsProvider({ wallets, children }: IWalletProvider) {
+  if (typeof window === "undefined") return;
+
   const { selectedWallet } = useContext(NavbarContext);
 
   const [openAsset, setOpenAssetState] = useState<IAsset>();
